@@ -1,0 +1,16 @@
+{
+    "name": "react-desktop",
+    "description": "Typings for react-desktop",
+    "homepage": "https://react-desktop.js.org",
+    "author": "Eric D Hiller",
+    "main": "src/index.d.ts",
+    "files": [
+        "src/window/windows/window.d.ts",
+        "src/checkbox/windows/checkbox.d.ts"
+    ],
+    "globalDependencies":
+    {
+        "react": "registry:dt/react#0.14.0+20160801203155",
+        "react-dom": "registry:npm/react-dom#15.0.1+20160705210405"
+    }
+}
