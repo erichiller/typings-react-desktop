@@ -3,10 +3,20 @@
     "description": "Typings for react-desktop",
     "homepage": "https://react-desktop.js.org",
     "author": "Eric D Hiller",
-    "main": "src/index.d.ts",
+    "main": "index.d.ts",
     "files": [
+        "src/button/windows/button.d.ts",
+        "src/checkbox/windows/checkbox.d.ts",
+        "src/navPane/windows/item/item.d.ts",
+        "src/navPane/windows/pane/pane.d.ts",
+        "src/navPane/windows/navPane.d.ts",
+        "src/style/color/windows.d.ts",
+        "src/style/theme/windows.d.ts",
+        "src/style/hidden.d.ts",
+        "src/text/windows/text.d.ts",
         "src/window/windows/window.d.ts",
-        "src/checkbox/windows/checkbox.d.ts"
+        "src/styleHelper.d.ts"
+
     ],
     "globalDependencies":
     {
