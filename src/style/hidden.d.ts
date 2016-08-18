@@ -4,8 +4,8 @@
 declare module 'react-desktop/windows' {
 
 	type hiddenPropTypes = { 
-		hidden: boolean
-	}
+		hidden: boolean;
+	};
 
 	function removeHiddenProps(props: props): {string: any}
 

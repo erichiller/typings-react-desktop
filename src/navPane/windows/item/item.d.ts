@@ -5,7 +5,7 @@ declare module 'react-desktop/windows' {
 	import { __NavPaneItemProps , __NavPaneItemState } from 'react-desktop-props';
 
 	class Item extends React.Component<__NavPaneItemProps,__NavPaneItemState> {
-		constructor()
+		constructor();
 		componentWillReceiveProps(nextProps);
 	}
 

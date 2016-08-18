@@ -2,7 +2,9 @@
 
 declare module 'react-desktop/windows' {
 
-	type colorPropTypes = string | boolean;
+	type colorPropTypes = {
+		color: string | boolean;
+	}
 
 	type colorContextType = string | boolean;
 
