@@ -2,9 +2,11 @@
   "name": "react-desktop.d",
   "version": "1.0.0",
   "description": "typescript typings for react-desktop",
-  "main": "typings.json",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/react-dom": "^0.14.18"
+  },
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
